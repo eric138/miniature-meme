@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './styles/styles.css';
+import './styles/styles.scss';
+
+const App = () => {
+  return (
+    <div>hello world</div>
+  );
+}
 
 ReactDOM.render(
-  <h1>Hello world</h1>,
+  <App />,
   document.querySelector('#app')
 );
